@@ -1,0 +1,16 @@
+PUT /fariseo_endpoint_statuses
+{
+ "mappings": {
+        "properties": {
+                "company": {"type":"keyword"},
+                "branch_name": {"type":"keyword"},
+                "local_host_ip": {"type":"text"},
+                "remote_endpoint_ip": {"type":"text"},
+                "remote_endpoint_name": {"type":"text"},
+                "remote_device_type": {"type":"keyword"},
+                "current_exec_time": {"type":"integer"},
+                "status": {"type":"keyword"}
+                }
+        }
+        
+}
